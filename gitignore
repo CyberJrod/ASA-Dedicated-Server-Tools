@@ -1,0 +1,25 @@
+# Ignore Python cache and environment files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.env/
+venv/
+.vscode/
+.idea/
+
+# Ignore INI files (do not upload Ark config files)
+*.ini
+
+# Ignore generated Excel comparison reports
+*.xlsx
+
+# Ignore macOS and Windows system files
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter and temporary files
+*.ipynb_checkpoints
+*.tmp
+*.log
